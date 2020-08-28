@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="splitter_impl">
+      <UniqueIdentifier>{9ff2f7b0-d3de-4723-9a10-18a100b396ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unit_test">
+      <UniqueIdentifier>{d9a24a91-5960-4c10-b523-e28b217ed4fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{94de4e07-baea-4c2f-8b6b-10ff0bcc8594}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Splitter\splitter_impl.cpp">
+      <Filter>splitter_impl</Filter>
+    </ClCompile>
+    <ClCompile Include="unit_test_splitter.cpp">
+      <Filter>unit_test</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Splitter\splitter_impl.h">
+      <Filter>splitter_impl</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
